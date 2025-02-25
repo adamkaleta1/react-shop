@@ -35,7 +35,7 @@ export const Header = ({ cart, onUpdateCartItemQuantity }) => {
                     <h1>GameKing</h1>
                 </div>
                 <p>
-                    <button onClick={handleOpenCartClick}>Cart</button>
+                    <button onClick={handleOpenCartClick}>Cart {cartQuantity}</button>
                 </p>
             </header>
         </>
